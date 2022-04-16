@@ -542,8 +542,9 @@ input:checked ~ ul  {
 .submenu__mobile{
   position:relative;
   display: flex;
-  justify-content:space-around;
-  align-items: flex-end;}
+  justify-content:flex-start;
+  align-items: center;
+  margin-left: 1em;}
 
 .submenu__mobile__img{
   width: 35px;
